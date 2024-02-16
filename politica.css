@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    line-height: 25px;
+
+}
+
+body{
+    background-color: #0f222e;
+}
+
+#container{
+    width: 80%;
+    margin: auto;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 0 50px 0;
+}
+
+h2{
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+p{
+    font-size: 16px;
+}
+
+footer{
+    background-color: #0d1b26;
+    padding: 70px 0;
+    margin-top: 20px;
+}
+
+#footer1, #footer2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+
+#footer-logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-logos a{
+    padding: 7px;
+    border-radius: 50%;
+    height: 10px;
+    background-color: #019aca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    margin: 0 25px;
+    transition: .8s;
+}
+
+#footer-logos a:hover{
+    scale: 1.1;
+}
+
+#footer-logos a:hover svg{
+    scale: 1.05;
+}
+
+#footer-logos svg{
+    height: 38px;
+    fill: white;
+    transition: .8s;
+}
+
+#footer1 h3{
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+
+#footer1 a{
+    color: #49b805;
+    font-size: 23px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .5s;
+}
+
+#footer1 a:hover{
+    color: white;
+}
+
+#linha{
+    background-color: white;
+    height: 1px;
+    opacity: .4;
+    width: 85%;
+    margin: 70px auto 30px auto;
+}
+
+#footer2 p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#footer2 a{
+    text-decoration: none;
+}
+
